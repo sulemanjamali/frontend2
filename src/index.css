@@ -1,0 +1,23 @@
+#card_list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#contact_card{
+  width: 600px;
+}
+
+#contact_card:hover{
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+  .myForm{
+    display: flex;
+    flex-direction: column;
+  }
+}
